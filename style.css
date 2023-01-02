@@ -12,25 +12,7 @@ body {
 
 @media screen and (max-width: 1020px) {
 	#nav {
-		display: flex;
-		justify-content: flex-end;
-		position: relative;
-		top: 20px;
-	}
-
-	#nav li {
-		display: inline;
-		background-color: rgb(252, 142, 172);
-		padding: 10px 15px 10px 15px;
-		margin: 30px 20px 0px 5px;
-		border-radius: 7px;
-		text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
-		color: white;
-		font-size: 15pt;
-	}
-
-	#nav a {
-		text-decoration: none;
+		display: none;
 	}
 
 	.header {
@@ -50,6 +32,7 @@ body {
 		justify-content: start;
 		padding-left: 25px;
 		position: relative;
+		margin-top: 110px;
 		padding-top: 10px;
 		background-color: rgb(252, 142, 172);
 		height: 70px;
@@ -59,16 +42,16 @@ body {
 
 	#header-background {
 		display: flex;
+		justify-content: center;
 		background-color: #062E66;
 		height: 100px;
-		width: 550px;
-		margin-top: -50px;
-		border-top-right-radius: 50px;
-		border-bottom-right-radius: 50px;
+		width: 1000px;
+		margin-top: 30px;
+		font-size: 20pt;
 	}
 
 	#header-background img {
-		margin-top: 10px;
+		margin-top: 30px;
 		margin-left: 20px;
 		height: 65px;
 		display: inline;
@@ -79,7 +62,7 @@ body {
 		object-fit: cover;
 		position: absolute;
 		width: 100vw;
-		margin-top: 100px;
+		margin-top: 200px;
 		top: 0;
 		left: 0;
 	}
@@ -87,7 +70,7 @@ body {
 	.video-wrapper {
 		position: relative;
 		width: 100vw;
-		height: 500px;
+		height: 650px;
 		overflow: hidden;
 	}
 
@@ -224,6 +207,7 @@ body {
 	.real-estate p {
 		width: 75%;
 		text-align: center;
+		font-size: 13px;
 	}
 
 	#contact {
@@ -482,6 +466,10 @@ button {
 		margin-right: 4.5%;
 		color: white;
 		font-size: 13pt;
+	}
+
+	#mobile-nav {
+		display: none;
 	}
 
 	#nav {
