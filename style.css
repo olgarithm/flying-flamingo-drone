@@ -243,6 +243,16 @@ body {
 	}
 }
 
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(img/simple-pre-loader/images/loader-64x/Preloader_3.gif) center no-repeat #fff;
+}
+
 #description a:link,
 a:visited {
 	color: black;
