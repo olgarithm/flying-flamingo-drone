@@ -76,7 +76,7 @@ body {
 	#about #outer {
 		display: flex;
 		justify-content: center;
-		font-size: 16pt;
+		font-size: 18pt;
 		width: 85%;
 		margin: auto;
 		padding-top: 15px;
@@ -135,7 +135,7 @@ body {
 	/* Caption text */
 	.text {
 		color: #f2f2f2;
-		font-size: 16pt;
+		font-size: 17pt;
 		padding: 8px 12px;
 		position: absolute;
 		bottom: 0;
@@ -171,10 +171,10 @@ body {
 		background-color: #FFFFFF;
 	}
 
-	.real-estate span {
+	.real-estate-subtitle {
 		width: 70%;
 		text-align: center;
-		font-size: 18px;
+		font-size: 18pt;
 	}
 
 	.blue-bg {
@@ -191,10 +191,10 @@ body {
 		border-radius: 20px;
 	}
 
-	.real-estate p {
+	.real-estate-caption {
 		width: 75%;
 		text-align: center;
-		font-size: 14px;
+		font-size: 14pt;
 	}
 
 	#contact {
@@ -211,17 +211,17 @@ body {
 	}
 
 	#contact #contact-header h2 {
-		font-size: 30px;
+		font-size: 20pt;
 	}
 
 	#contact #contact-header p {
-		font-size: 21px;
+		font-size: 17pt;
 	}
 
 	#contact form {
 		color: black;
 		width: 400px;
-		font-size: 16pt;
+		font-size: 17pt;
 		padding-bottom: 30px
 	}
 
@@ -422,21 +422,11 @@ button {
 	#about #outer {
 		display: flex;
 		justify-content: center;
-		font-size: 16pt;
+		font-size: 17pt;
 		width: 65%;
 		margin: auto;
 		padding-top: 15px;
 		align-items: center;
-	}
-
-	.real-estate span {
-		width: 55%;
-		text-align: center;
-	}
-
-	.real-estate p {
-		width: 600px;
-		margin-right: 30px;
 	}
 
 	#contact {
@@ -596,7 +586,16 @@ button {
 		position: relative;
 	}
 
-	.real-estate {
+	.real-estate-subtitle {
+		width: 70%;
+		text-align: center;
+		font-size: 17pt;
+	}
+
+	.real-estate-caption {
+		width: 40%;
+		margin-right: 30px;
+		text-align: center;
 		font-size: 16pt;
 	}
 
